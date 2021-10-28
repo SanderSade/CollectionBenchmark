@@ -6,9 +6,8 @@ namespace IReadOnlyListBenchmark // Note: actual namespace depends on the projec
 {
 	public class Program
 	{
-		public static void Main(string[] args)
+		public static void Main()
 		{
-			
 			var summary = BenchmarkRunner.Run<Benchmarks>();
 
 			Console.WriteLine(summary.AllRuntimes);

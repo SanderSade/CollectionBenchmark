@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-     <TargetFrameworks>net472;net5.0;netcoreapp3.1;net6.0</TargetFrameworks>
+     <TargetFrameworks>net472;net6.0</TargetFrameworks>
     <ImplicitUsings>disable</ImplicitUsings>
     <Nullable>disable</Nullable>
     <StartupObject>IReadOnlyListBenchmark.Program</StartupObject>
@@ -28,7 +28,7 @@
 
   <ItemGroup>
     <PackageReference Include="BenchmarkDotNet" Version="0.13.1" />
-    <PackageReference Include="system.collections.immutable" Version="5.0.0" />
+    <PackageReference Include="system.collections.immutable" Version="6.0.0-rc.2.21480.5" />
   </ItemGroup>
 
 </Project>

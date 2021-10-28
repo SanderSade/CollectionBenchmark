@@ -128,6 +128,7 @@ namespace IReadOnlyListBenchmark
 			var results = resultList;
 		}
 
+
 		[Benchmark]
 		public void RunImmutableListForeach()
 		{
